@@ -37,15 +37,18 @@ SyncGoogleTasksAbstractspoon.exe /syncall
 ## Why this sync-app was made and about the 3.party apps.
 For many years, I have used the free and nicely made AbstractSpoon ToDoList for my PC related tasks and the nice and free GoTasks for IPhone. Then I wanted a synchronization between these two favorite apps, so I could use both of the apps in one solution. I did not found any ready-made synchronization solution, so I made one myself.
 
-### AbstractSpoon
+### AbstractSpoon ToDoList
 AbstractSpoon is a open source task outliner application for Windows. It is free, but very powerful and rich on functions. The best task application I have used for Windows. The file format is XML.
+http://www.abstractspoon.com/
 
 ### Google Tasks and Google Tasks API
 Google Tasks is a simple task outliner inside Gmail, with due date and notes. Google has a nicely done and stable API wich makes it a nice place to store your tasks in the Cloud.
 There is many apps, which integrates with it.
+http://www.gmail.com
 
 ### Recommends GoTasks for IPhone
 In my opinion, the best task outliner for IPhone is GoTasks. It is very simple to use. It supports dual lines, drag and drop ordering and indents, due dates, notes. It supports many settings such as changing font sizes and a stable synchronization with Google Tasks. Note: I recommends the manual sync option.
+https://itunes.apple.com/no/app/gotasks-google-tasks-client/id389113399?mt=8
 
 ## About the source code
 This console application are written in Visual Studio 2013 and in C#, for Windows.
