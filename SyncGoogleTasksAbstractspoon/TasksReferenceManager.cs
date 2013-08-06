@@ -34,7 +34,7 @@ namespace SyncGoogleTasksAbstractSpoon
 
             var references = GetCachedReferences(taskListTitle);
 
-            foreach (var reference in references.Where(pair => pair.GoogleTaskId == googleTaskId))
+            foreach (var reference in references.Where(reference => reference.GoogleTaskId == googleTaskId))
                 return reference.AbstractSpoonTaskId;
 
             var abstractSpoonTaskId = GetNextUniqueAbstractSpoonId(references);
