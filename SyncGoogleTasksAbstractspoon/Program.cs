@@ -148,7 +148,7 @@ namespace SyncGoogleTasksAbstractSpoon
             {
                 string[] localTodoFiles = FilesHelper.GetTodoFiles();
 
-                foreach (var remotelyDeleted in ChangeListManager.GeChangeListOfRemotelyDeletedLists(localTodoFiles, remoteTaskLists))
+                foreach (var remotelyDeleted in ChangeListManager.GetChangeListOfRemotelyDeletedLists(localTodoFiles, remoteTaskLists))
                 {
                     Console.WriteLine("Delete local verison of \"" + remotelyDeleted.Title + "\"");
                     FilesHelper.DeleteLocalTaskListByTitle(remotelyDeleted.Title);

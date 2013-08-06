@@ -126,7 +126,7 @@ namespace SyncGoogleTasksAbstractSpoon
         }
 
 
-        public static Data.TaskListChanges GeChangeListOfRemotelyDeletedLists(string[] localTodoFiles, List<Data.TaskList> remoteTaskLists)
+        public static Data.TaskListChanges GetChangeListOfRemotelyDeletedLists(string[] localTodoFiles, List<Data.TaskList> remoteTaskLists)
         {
 
             var found = false;
