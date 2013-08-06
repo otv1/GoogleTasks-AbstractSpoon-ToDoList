@@ -37,7 +37,7 @@ SyncGoogleTasksAbstractspoon.exe /syncall
 ## Why this app
 For many years, I have used the free and nicely made AbstractSpoon ToDoList for my PC related tasks and the nice and free GoTasks for IPhone. Then I wanted a synchronization between these two favorite apps, so I could use both of the apps in one solution. I did not found any ready-made synchronization solution, so I made one myself.
 
-## About 3.party apps.
+## About the 3.party apps.
 
 ### AbstractSpoon ToDoList
 AbstractSpoon is a open source task outliner application for Windows. It is free, but very powerful and rich on functions. The best task application I have used for Windows. The file format is XML.
@@ -48,7 +48,7 @@ Google Tasks is a simple task outliner inside Gmail, with due date and notes. Go
 There is many apps, which integrates with it.
 http://www.gmail.com
 
-### Recommends GoTasks for IPhone
+### GoTasks for IPhone
 In my opinion, the best task outliner for IPhone is GoTasks. It is very simple to use. It supports dual lines, drag and drop ordering and indents, due dates, notes. It supports many settings such as changing font sizes and a stable synchronization with Google Tasks. Note: I recommends the manual sync option.
 https://itunes.apple.com/no/app/gotasks-google-tasks-client/id389113399?mt=8
 
@@ -56,8 +56,7 @@ https://itunes.apple.com/no/app/gotasks-google-tasks-client/id389113399?mt=8
 This console application are written in Visual Studio 2013 and in C#, for Windows.
 
 ## Not a developer?
-If you are not a developer and want to use this app, you may compile this with the free version of visual studio for windows.
-Or you can make a request and let me now if you want a new version of this app.
+If you are not a developer and want to use this app, you may want to make a request and let me now if you want a new ready-made version of this app.
 
 ## License
 This sourcecode is free to fork. But please try to contribute to the original application. If you want to copy it into an commercial application, it is okay, but let me know in advance.
