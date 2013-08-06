@@ -6,7 +6,7 @@ This application is a console application which you can synchronize your Google 
 It can synchronize all your AbstractSpoon ToDoLists files in a folder with Google Tasks, using Google Tasks API. Each .tdl file synchronizes as a Google task list.
 It supports synchronization both ways, deleting, creating, editing lists/files and tasks.
 
-## How to use it first time
+## How to setup and use
 
 1. Download the source code and open the projects in visual studio.
 2. Setup settings in app.config
